@@ -1,0 +1,4 @@
+interface:
+  display_name: "教育动画与日常科普"
+  short_description: "制作或复刻教育动画与日常科普，遵循留白、独立开场、自然配音、清晰转场和完整收尾规则"
+  default_prompt: "使用 $educational-video-recreation 根据这个选题或参考视频制作教育动画，按相应模式生成可播放预览、首帧封面和竖屏 MP4。"
