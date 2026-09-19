@@ -1,6 +1,6 @@
 # 教育动画与日常科普 Skill
 
-可移植版 1.0.0，整理日期：2026-09-18。
+可移植版 1.1.0，更新日期：2026-09-19。
 
 将经过多轮迭代的视频制作规则与执行流程打包，让另一个 Agent 不依赖原始对话也能继续制作。日常科普与无声几何动画是独立模式。
 
@@ -29,6 +29,8 @@ git clone https://github.com/tom729/educational-video-recreation.git
 - [SKILL.md](SKILL.md)：能力入口、模式和交付要求。
 - [日常制作规范](references/daily-science-production.md)：画幅留白、封面、分段、真实结构、配音尾音、发音、转场、结尾与默认暂停。
 - [完整制作流程](references/production-workflow.md)：资料、脚本、分镜、配音、时间轴、动画、导出、验收、修订和项目接续。
+- [Blender 3D 制作](references/blender-production.md)：程序化建模、真实结构、材质灯光、拆解与吊装、镜头衔接、透明渲染和工程交付。
+- [Blender 起步脚本](scripts/create_blender_scene.py)：创建可编辑示例场景，逐帧检查几何留白，可抽帧试渲染；不是完整科普视频。
 - [跨 Agent 适配与调用](references/portability.md)：导入方法、能力替代和使用示例。
 - [几何案例](references/geometry-case.md)：独立几何模式参考，日常科普无需读取。
 - [视频核验脚本](scripts/verify_video.py)：格式、时长、音轨存在性、首帧提取和疑似长静帧检测。
